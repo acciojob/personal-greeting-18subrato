@@ -11,7 +11,7 @@ const App = () => {
           type="text"
           onChange={(e)=>setName(e.target.value)}
         />
-        {name && <p>"Hello ! {name}!"</p>}
+        {name && <p>"Hello {name}!"</p>}
     </div>
   )
 }
